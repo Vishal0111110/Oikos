@@ -1,2 +1,45 @@
-# Oikos
-It is an app designed to foster community interaction.
+# Community App
+
+Cross Platform Full Stack Community App Named 'Oikos' - Works on Android, iOS & Web! 
+
+## Features
+- Google/Guest Authentication
+- Create, Join community
+- Community Profile (Avatar, Banner, Members) 
+- Edit Description and Avatar of community
+- Post (link only, photo, text only) 
+- Displaying posts from communities user is part of
+- Upvote, Downvote
+- Comment
+- Award the Post
+- Update Karma
+- Add Moderators
+- Moderator- remove post
+- Delete post
+- User Profile (Avatar, Banner) 
+- Theme Switch
+- Cross Platform
+- Responsive UI
+- Latest posts (instead of home, display this to guest users) 
+
+## Installation
+After cloning this repository, migrate to ```companion app``` folder. Then, follow the following steps:
+- Create Firebase Project
+- Enable Authentication (Google Sign In, Guest Sign In)
+- Make Firestore Rules
+- Create Android, iOS & Web Apps
+- Use FlutterFire CLI to add the Firebase Project to this app.
+Then run the following commands to run your app:
+```bash
+  flutter pub get
+  flutter run
+```
+
+## Tech Used
+**Server**: Firebase Auth, Firebase Storage, Firebase Firestore
+
+**Client**: Flutter, Riverpod 2.0, Routemaster
+    
+## Feedback
+
+If you have any feedback, please reach out to me at buyyarapuvishalgaurav123@gmail.com
