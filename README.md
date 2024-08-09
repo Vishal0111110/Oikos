@@ -23,7 +23,7 @@ Cross Platform Full Stack Community App Named 'Oikos' - Works on Android, iOS & 
 - Latest posts (instead of home, display this to guest users) 
 
 ## Installation
-After cloning this repository, migrate to ```companion app``` folder. Then, follow the following steps:
+After cloning this repository, migrate to ```Oikos app``` folder. Then, follow the following steps:
 - Create Firebase Project
 - Enable Authentication (Google Sign In, Guest Sign In)
 - Make Firestore Rules
